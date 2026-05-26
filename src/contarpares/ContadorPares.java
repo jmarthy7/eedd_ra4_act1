@@ -1,6 +1,6 @@
 package contarpares;
 
-public class ContarPares {
+public class ContadorPares {
 
 	public static void main(String[] args) {
 		int resultado = mostrarCantidadPares(100);
