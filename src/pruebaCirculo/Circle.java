@@ -1,6 +1,6 @@
 package pruebaCirculo;
 
-public class Circle {
+public class Circle implements IFiguraGeometrica {
 	/**
 	 * 
 	 */
@@ -49,6 +49,7 @@ public class Circle {
 		return Math.PI * getDiametro();
 	}
 
+	@Override
 	public double getArea() {
 		return Math.PI * radio * radio;
 	}
